@@ -7,18 +7,14 @@
 	z-index: 99;
 	padding:15px;
 }
-.header .item-left{
-	flex:0 0 17%;
-}
+
 .header .logo a{
 	font-size: 30px;
 	color:#000000;
 	font-weight: 700;
 	text-decoration: none;
 }
-.header .item-center{
-	flex:0 0 66%;
-}
+
 .header .item-right{
 	flex:0 0 17%;
 	display: flex;
