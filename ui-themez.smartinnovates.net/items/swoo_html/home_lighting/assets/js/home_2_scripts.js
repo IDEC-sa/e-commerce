@@ -65,6 +65,45 @@ $(document).ready(function() {
         autoplay: false,
         loop: false,
     });
+    var swiper = new Swiper('.tc-popular-cat-style1 .best-seller-slider', {
+        slidesPerView: 7,
+        spaceBetween: 10,
+        // centeredSlides: true,
+        speed: 1000,
+        noSwiping: true,
+        pagination: {
+            el: '.tc-popular-cat-style1.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.tc-popular-cat-style1 .container .content .swiper-button-next',
+            prevEl: '.tc-popular-cat-style1 .container .content .swiper-button-prev',
+        },
+        mousewheel: false,
+        keyboard: true,
+        autoplay: {
+            delay: 5000,
+        },
+        loop: false,
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            480: {
+                slidesPerView: 2,
+            },
+            787: {
+                slidesPerView: 5,
+            },
+            991: {
+                slidesPerView: 6,
+            },
+            1200: {
+                slidesPerView: 7,
+            }
+        }
+    });
+
 
     // ------------ tc-best-seller-style2 -----------
     var swiper = new Swiper('.tc-best-seller-style2 .best-seller-slider', {
@@ -241,7 +280,7 @@ $(document).ready(function() {
 
     // ------------ tc-new-arrival-style2 -----------
     var swiper = new Swiper('.tc-blog-style2 .blog-slider', {
-        slidesPerView: 4,
+        slidesPerView: 1,
         spaceBetween: 30,
         // centeredSlides: true,
         speed: 1000,

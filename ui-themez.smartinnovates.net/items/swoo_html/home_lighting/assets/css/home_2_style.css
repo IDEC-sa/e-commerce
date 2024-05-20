@@ -2,6 +2,9 @@
   font-family: "GrayscaleSignature";
   src: url("../fonts/GrayscaleSignature-mL16a.ttf") format("woff");
 }
+:root{
+  --grey-200:#f7f8fa
+}
 /* ========= [ * page-home_3 ]  =========*/
 /* --------------- navbar style2 --------------- */
 .tc-navbar-style2 {
@@ -169,6 +172,53 @@
   height: 100%;
   background-color: #000;
   opacity: 0.4;
+}
+ .cat-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+ .cat-content .cat-card {
+  margin-top: 40px;
+  text-align: center;
+  -webkit-margin-end: 15px;
+          margin-inline-end: 15px;
+}
+ .cat-content .cat-card:last-of-type {
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+}
+ .cat-content .cat-card:hover .img {
+  outline: 1px solid var(--color-blue1);
+  outline-offset: 3px;
+}
+ .cat-content .cat-card:hover p {
+  text-decoration: underline;
+}
+ .cat-content .cat-card .img {
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+  border-radius: 50%;
+  background-color: #e3e3ec;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+ .cat-content .cat-card .img img {
+  max-height: 50%;
+}
+
+@media screen and (max-width: 991px) {
+  .tc-popular-cat-style1 .cat-content {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 .tc-header-style2 .main-slider .slide-card .info {
   position: absolute;
@@ -461,6 +511,12 @@
 .tc-best-seller-style2 .product-card-style2:hover .swiper-button-prev {
   opacity: 1;
 }
+/* duplicated */
+.tc-best-seller-style2 .product-card-style2:hover .swiper-button-next,
+.tc-best-seller-style2 .product-card-style2:hover .swiper-button-prev {
+  opacity: 1;
+}
+/* end duplicated */
 .tc-best-seller-style2 .product-card-style2:hover .imgs .btns {
   opacity: 1;
   visibility: visible;
@@ -1041,6 +1097,32 @@
   font-size: 20px;
   color: #000;
 }
+
+/* duplicated */
+
+.container .content .swiper-button-next,
+.container .content .swiper-button-prev {
+  width:  calc(var(--swiper-navigation-size));
+  height:  calc(var(--swiper-navigation-size));
+  border-radius: 100%;
+  background-color: white;
+  padding: 2%;
+  top: 50%;
+  transition:all 0.3s ease;
+  opacity: .5;
+  }
+ .container .swiper-button-next::after,
+ .container .swiper-button-prev::after {
+  /* border-radius: 100%; */
+  font-size: 20px;
+  color: #000;
+}
+
+.container .content .swiper-button-next:hover, 
+.container .content .swiper-button-prev:hover{
+  opacity: 1;
+}
+
 .tc-testimonials-style2 .testimonial-slider {
   position: relative;
   overflow: hidden;
@@ -1273,6 +1355,9 @@
   .tc-footer-style2 .links {
     margin-bottom: 40px;
   }
+}
+.home-style2{
+  background-color: var(--grey-200);
 }
 .home-style2 .border-dark {
   border-color: #999 !important;
