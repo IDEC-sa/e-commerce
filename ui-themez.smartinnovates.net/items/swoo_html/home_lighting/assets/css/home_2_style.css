@@ -47,7 +47,7 @@
   min-height: 45px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  width: 200px;
+  width: 500px;
   max-width: 75%;
 }
 .tc-navbar-style2 .search-cat .form-control::-webkit-input-placeholder {
@@ -1314,3 +1314,6 @@
     display: none;
   }
 }
+
+
+
