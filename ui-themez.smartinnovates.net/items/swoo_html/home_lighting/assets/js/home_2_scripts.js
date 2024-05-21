@@ -66,7 +66,7 @@ $(document).ready(function() {
         loop: false,
     });
     var swiper = new Swiper('.tc-popular-cat-style1 .best-seller-slider', {
-        slidesPerView: 7,
+        slidesPerView: 4,
         spaceBetween: 10,
         // centeredSlides: true,
         speed: 1000,
@@ -76,8 +76,8 @@ $(document).ready(function() {
             clickable: true,
         },
         navigation: {
-            nextEl: '.tc-popular-cat-style1 .container .content .swiper-button-next',
-            prevEl: '.tc-popular-cat-style1 .container .content .swiper-button-prev',
+            nextEl: '.tc-popular-cat-style1 .container  .swiper-button-next',
+            prevEl: '.tc-popular-cat-style1 .container  .swiper-button-prev',
         },
         mousewheel: false,
         keyboard: true,
@@ -93,13 +93,13 @@ $(document).ready(function() {
                 slidesPerView: 2,
             },
             787: {
-                slidesPerView: 5,
+                slidesPerView: 3,
             },
             991: {
-                slidesPerView: 6,
+                slidesPerView: 4,
             },
             1200: {
-                slidesPerView: 7,
+                slidesPerView: 6,
             }
         }
     });
