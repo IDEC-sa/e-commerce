@@ -137,25 +137,38 @@ $( function() {
 
 
 $( function() {
+    $('.overlapblackbg').click(
+        function(){
+            // console.log("sayed is here 2")
+            if ($('body').hasClass("wsactive")){
+                $('body').removeClass("wsactive")
+        }}
+    )
     $('.wsmenu-click02').click(
         function(){
             console.log("sayed is here 2")
-            $(this).siblings(".wstitemright ").addClass('clicked')
+            $(this).siblings(".wstitemright ").toggleClass('clicked')
         }
     )
     $('.wsmenu-click').click(
         function(){
             console.log("sayed is here ")
-            $(this).siblings(".wsshoptabing").addClass('clicked')
+            $(this).siblings(".wsshoptabing").toggleClass('clicked')
         }
     ,  console.log("clicked else where"))   ;
     $('#wsnavtoggle').click( 
         function(){
             console.log("clikced")
+            if ($('body').hasClass("wsactive")){
+                $('body').removeClass("wsactive")
+                $('.wsmenucontainer').css('min-width', '0')
+                $('.wsmenu').css('height', '0%')
+        }else{
             $('body').addClass("wsactive")
-            $('.wsmenucontainer').css('min-width', '300px')
+            $('.wsmenucontainer').css('min-width', '300')
             $('.wsmenu').css('height', '100%')
         }
+    }
     )
 });
 $( function() {

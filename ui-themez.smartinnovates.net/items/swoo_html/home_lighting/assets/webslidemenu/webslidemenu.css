@@ -1461,7 +1461,9 @@ video {
     visibility: visible;
     height: 100%;
   }
-
+  .wsmenu>.wsmenu-list>li>.wsshoptabing>.wsshopwp>.wstabitem>li>.wstitemright.clicked{
+    display: block;
+  }
   .wsmenu>.wsmenu-list>li>.wsshoptabing>.wsshopwp>.wstabitem {
     width: 100%;
     background-color: #fff;
@@ -1730,7 +1732,9 @@ video {
     z-index: 1000;
     top: 0;
   }
-
+  ul li {
+    z-index: 30;
+  }
   .wsactive .wsmenu>.wsmenu-list {
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
