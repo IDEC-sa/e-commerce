@@ -32,7 +32,11 @@ body {
 
 .main {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px; /* المسافة بين العناصر */
+    background-color: #f4f4f4;
+    
+    padding: 20px;
 }
 
 .number {
@@ -157,19 +161,46 @@ p.step-description {
 }
 
 .buttons {
-    position: absolute;
-    bottom: 1rem;
-    display: flex;
-    justify-content: space-around;
-    gap: 10rem;
+    /* position: absolute; */
+    /* bottom: 1rem; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* gap: 10rem; */
 
 }
 
+
+
+
+
+
+
+.select_type {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+
+
+
+
+
+
 .buttons .next-step {
-    background-color: hsl(278, 68%, 11%);
+    background-color:black;
     color: hsl(0, 0%, 100%);
     display: block;
-    width: 15rem;
+    width: 12rem;
     margin: 10px 0;
     padding: 10px;
     cursor: pointer;
@@ -228,7 +259,7 @@ p.step-description {
 
 /* toggle switches */
 article {
-    max-width: 40rem;
+    max-width: 80rem;
     margin: 1.5rem auto;
 }
 
@@ -260,7 +291,7 @@ section>*,
 .panel-element {
     background-color: var(--light-theme-background);
     box-shadow: 2px 2px 5px var(--light-theme-shadow);
-    min-width: 12rem;
+    min-width: 100%;
 }
 
 .toggle-contents-wrapper {
