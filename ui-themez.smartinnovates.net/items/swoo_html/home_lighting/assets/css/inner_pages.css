@@ -3605,8 +3605,8 @@
   background-color: #e2e4eb;
 }
 .home-style3 .form-check-input:checked {
-  background-color: var(--color-green2);
-  border-color: var(--color-green2);
+  /* background-color: var(--color-green2);
+  border-color: var(--color-green2); */
 }
 
 .title .arrows {
@@ -3661,3 +3661,17 @@
     padding: 25px 15px !important;
   }
 }
+
+
+
+
+
+
+
+        /* الأنماط لشاشات أكبر */
+        @media (min-width: 992px) {
+          .main_chekout {
+              margin-left: 120px;
+              margin-right: 120px;
+          }
+      }
