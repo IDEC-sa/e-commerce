@@ -2176,13 +2176,15 @@ input:focus {
   --color-red2:#eb4227;
   --color-cyan1:#41c2f2;
   --color-cyan2:#01a49e;
-  --color-green1:#009900;
-  --color-green2:#1aba1a;
+  /* --color-green1:#009900;
+  --color-green2:#1aba1a; */
   --color-brown1:#362526;
   --color-orange1:#f6ab4a;
   --color-darkGreen1:#435048;
   --color-light1:#eff3f6;
   --color-light2:#e9e7e8;
+  --color-gry:#cecece;
+
 }
 
 .color-light1 {
