@@ -2617,7 +2617,8 @@
 .contact-pg-1 .contact-info .contact-info-card {
   padding: 30px;
   border-radius: 10px;
-  background-color: #edeff6;
+  background-color: gray;
+  
 }
 .contact-pg-1 .contact-info .contact-info-card .social-icons a {
   width: 35px;
@@ -2631,7 +2632,7 @@
 }
 .contact-pg-1 .contact-info .contact-info-card .social-icons a:hover {
   background-color: var(--color-green2);
-  color: #fff;
+  color: gray;
 }
 .contact-pg-1 .map iframe {
   -webkit-filter: grayscale(1);
