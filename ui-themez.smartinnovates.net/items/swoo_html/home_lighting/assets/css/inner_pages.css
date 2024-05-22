@@ -3005,10 +3005,8 @@
 }
 .profile-pg-1 .tc-profile .tabs-side .nav-pills .nav-link.active {
   background-color: var(--color-green2);
-  color: #fff;
 }
 .profile-pg-1 .tc-profile .tabs-side .nav-pills .nav-link.active * {
-  color: #fff;
 }
 .profile-pg-1 .tc-profile .orders-tab .order-card {
   padding: 15px;
