@@ -238,6 +238,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  justify-content: center;
+
 }
 .tc-header-style2 .main-slider .slide-card .info h2 {
   display: block;
@@ -570,6 +572,9 @@
   display: -ms-flexbox;
   display: flex;
   font-size: 12px;
+  justify-content: center;
+
+  
 }
 .tc-best-seller-style2 .product-card-style2 .info .rate .stars {
   color: #339900;
