@@ -1,40 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
-:root {
-    /* LIGHT THEME COLORS */
-    --light-theme-base: #bdbdbd;
-    --light-theme-background: #FFFFFF;
-    --light-theme-shadow: rgba(18, 18, 18, .3);
-    --light-theme-primary: #6200EE;
-    --light-theme-primary-dark: #3700B3;
-    --light-theme-secondary: #03DAC6;
-    --light-theme-secondary-dark: #018786;
-    --light-theme-error-color: #B00020;
-    /* DARK THEME COLORS */
-    --dark-theme-base: #1d1d1d;
-    --dark-theme-background: #121212;
-    --dark-theme-shadow: rgba(255, 255, 255, .3);
-    --dark-theme-primary: #BB86FC;
-    --dark-theme-primary-dark: #3700B3;
-    --dark-theme-secondary: #03DAC6;
-    --dark-theme-error-color: #CF6679;
-}
 
-html {
-    scroll-behavior: smooth;
 
-}
 
-body {
-    font-family: 'Ubuntu', sans-serif;
 
-}
 
-.main {
+.main_regist {
     display: flex;
     flex-direction: column;
     gap: 10px; /* المسافة بين العناصر */
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     
     padding: 20px;
 }
