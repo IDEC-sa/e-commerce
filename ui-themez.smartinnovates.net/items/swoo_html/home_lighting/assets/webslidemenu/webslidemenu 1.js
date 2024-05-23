@@ -142,6 +142,8 @@ $( function() {
             // console.log("sayed is here 2")
             if ($('body').hasClass("wsactive")){
                 $('body').removeClass("wsactive")
+                $('.search-cat').removeClass('display')
+        }else{
         }}
     )
     $('.wsmenu-click02').click(
@@ -160,16 +162,18 @@ $( function() {
         function(){
             console.log("clikced")
             if ($('body').hasClass("wsactive")){
+                console.log("displat")
+                $('.search-cat').removeClass('display')
                 $('body').removeClass("wsactive")
                 $('.wsmenucontainer').css('min-width', '0')
                 $('.wsmenu').css('height', '0%')
         }else{
             $('body').addClass("wsactive")
+            $('.search-cat').addClass('display')
             $('.wsmenucontainer').css('min-width', '300')
             $('.wsmenu').css('height', '100%')
         }
-    }
-    )
+    })
 });
 $( function() {
     

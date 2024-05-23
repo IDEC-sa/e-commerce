@@ -66,7 +66,7 @@ $(document).ready(function() {
         loop: false,
     });
     var swiper = new Swiper('.tc-popular-cat-style1 .best-seller-slider', {
-        slidesPerView: 4,
+        slidesPerView: 8,
         spaceBetween: 10,
         // centeredSlides: true,
         speed: 1000,
@@ -93,13 +93,13 @@ $(document).ready(function() {
                 slidesPerView: 2,
             },
             787: {
-                slidesPerView: 3,
+                slidesPerView: 5,
             },
             991: {
-                slidesPerView: 4,
+                slidesPerView: 7,
             },
             1200: {
-                slidesPerView: 6,
+                slidesPerView: 8,
             }
         }
     });

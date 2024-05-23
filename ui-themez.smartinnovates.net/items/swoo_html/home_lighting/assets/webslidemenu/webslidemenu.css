@@ -91,13 +91,45 @@ video {
 /* ================== Desktop Main Menu CSS ================== */
 .headerfull {
   width: 100%;
-  height: 60px;
+  /* height: 60px; */
   position: relative;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.16);
+  /* -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.16);
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.16); */
 }
 
+/* edit navbar  */
+@media (min-width:991px) {
+  nav.header{
+    /* background-color:#00bcf2; */
+    background-color: wheat;
+  }
+  ul.wsmenu-list > li > a.navtext{
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 1.25rem;
+    /* background-color: #00c853; */
+    margin: 7px 3px !important;
+    color: #000;
+  } 
+  ul.wsmenu-list > li > a.navtext:hover{
+   background-color:beige;
+  } 
+  .wsmenu>.wsmenu-list>li>.navtext {
+    padding: 7px 5px !important;
+  }
+  .wsmenu>.wsmenu-list>li>a.navtext > span{
+    /* padding: 7px 5px !important; */
+    font-size: 13px;
+    font-weight: lighter;
+  }
+}
 .smllogo {
   padding: 9px 0px 0 16px;
   margin: 0;
@@ -128,7 +160,7 @@ video {
   padding: 0;
   display: block;
   margin: 0;
-  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  /* border-left: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
 .wsmenu>.wsmenu-list {
@@ -423,7 +455,7 @@ video {
   margin: 0px;
   padding: 0px;
   position: absolute;
-  top: 60px;
+  /* top: 60px; */
   background-color: #f8f8f8;
   left: 0;
   border-bottom: solid 2px #376cb7;
@@ -538,6 +570,12 @@ video {
 .wsmenu>.wsmenu-list>li .wstbootslider {
   float: right;
   margin-top: 8px;
+}
+.wsshoplink-active > a{
+  background-color: beige !important;
+}
+.wsmenu>.wsmenu-list>li>.wsshoptabing>.wsshopwp>.wstabitem.wselect>li>a{
+  border-bottom: 0;
 }
 
 .wsmenu>.wsmenu-list>li .wstmegamenucolr {
@@ -1439,27 +1477,28 @@ video {
 
   .wsmenu>.wsmenu-list>li>.wsshoptabing {
     visibility: visible;
-    display: block;
-    height: 0;
-    transition: visibility .3s, opacity 0.5s linear;
+    /* height: 0; */
+    /* transition: visibility .3s, opacity 0.5s linear; */
     background-color: #ffffff;
     color: #666666;
     position: relative;
     top: 0px;
     padding: 0px;
     border: solid 0px;
-    /* opacity: 1;
+    opacity: 1;
     visibility: visible;
-    transform: none; */
+    transform: none;
     -o-transform: none;
     -moz-transform: none;
     -webkit-transform: none;
     -webkit-transform-style: flat;
+    display: none;
   }
   .wsmenu>.wsmenu-list>li>.wsshoptabing.clicked{
-    opacity: 1;
+    /* opacity: 1;
     visibility: visible;
-    height: 100%;
+    height: 100%; */
+    display: block;
   }
   .wsmenu>.wsmenu-list>li>.wsshoptabing>.wsshopwp>.wstabitem>li>.wstitemright.clicked{
     display: block;
@@ -1480,7 +1519,9 @@ video {
   /* ================== Mobile Header CSS ================== */
   .wsmobileheader {
     width: 100%;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -1747,7 +1788,7 @@ video {
   
   /* ================== Mobile Sub Menu Expander Arrows  ================== */
   .wsmenu>.wsmenu-list>li>.wsmenu-click {
-    border-left: 1px solid;
+    /* border-left: 1px solid; */
     cursor: pointer;
     display: block;
     height: 60px;
