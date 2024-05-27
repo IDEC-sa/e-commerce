@@ -326,3 +326,30 @@ $(document).ready(function(){
 
 });
 
+
+
+
+
+
+
+
+
+
+
+document.getElementById("more-link").addEventListener("click", function(event){
+    event.preventDefault();
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more-text");
+    var linkText = document.getElementById("more-link");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      linkText.innerHTML = "more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      linkText.innerHTML = "less"; 
+      moreText.style.display = "inline";
+    }
+  });
+ 
