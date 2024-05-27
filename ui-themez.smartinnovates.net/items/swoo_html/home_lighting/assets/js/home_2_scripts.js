@@ -81,9 +81,9 @@ $(document).ready(function() {
         },
         mousewheel: false,
         keyboard: true,
-        autoplay: {
-            delay: 5000,
-        },
+        // autoplay: {
+        //     delay: 5000,
+        // },
         loop: false,
         breakpoints: {
             0: {

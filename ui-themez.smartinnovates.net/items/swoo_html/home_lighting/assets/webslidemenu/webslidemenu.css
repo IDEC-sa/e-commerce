@@ -104,6 +104,9 @@ video {
     /* background-color:#00bcf2; */
     background-color: white;
   }
+  .wsmenu>.wsmenu-list{
+    display: flex !important ;justify-content: space-between;
+  }
   ul.wsmenu-list > li > a.navtext{
     padding: .35em .65em;
     font-size: .75em;
