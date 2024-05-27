@@ -79,7 +79,6 @@
   -webkit-transform: rotateX(-75deg);
 }
 
-
 @media only screen and (min-width: 992px) {
   li:hover .wsshoptabing {
     opacity: 1;

@@ -4,7 +4,55 @@
 }
 
 :root{
-  --grey-200:#f7f8fa
+  --grey-200:#f7f8fa;
+  --white: #ffffff;
+  --black: #000;
+  --shop: #ff6363;
+  --new: #fbbf69;
+  --rdi: #ffe869;
+  --newsletter: #f5efe8;
+  --newsletter-dark: #f0e1d0;
+  --footer: #212B35;
+  --ready-to-ship: #4caf50;
+  --grey-50: #D1D1D1;
+  --grey-100: #F8F6F4;
+  --grey-150: #9c9c9c;
+  --grey-200: #f7f8fa;
+  --grey-300: #e4e5e7;
+  --grey-400: #9b9b9b;
+  --grey-500: #777777;
+  --grey-600: #4f4f4f;
+  --grey-700: #353E46;
+  --grey-800: #2D3843;
+  --gold: #ffd700;
+  --edilportale: #00AFEC;
+  --alert: #d4452e;
+  --success: #7CB342;
+  --warning: #FFAE00;
+  --furniture: #f2e4e0;
+  --furniture-dark: #EAD4CE;
+  --bathroom: #eff4f7;
+  --bathroom-dark: #DEE8EF;
+  --kitchen: #f8f5f3;
+  --kitchen-dark: #EEE9E3;
+  --lighting: #fff8ed;
+  --lighting-dark: #FFEFD3;
+  --outdoor: #e6dbd6;
+  --outdoor-dark: #DCCDC6;
+  --office: #e1e8f1;
+  --office-dark: #D0DAE9;
+  --contract: #f5ecf0;
+  --contract-dark: #ECDBE3;
+  --wellness: #eaf7f2;
+  --wellness-dark: #D7F0E7;
+  --decor: #dee4d1;
+  --decor-dark: #D3DAC1;
+  --finishes: #f0f2ee;
+  --finishes-dark: #DDE1D7;
+  --construction: #f7f7f7;
+  --contruction-dark: #EAEAEA;
+  --lifestyle: #cbdbd4;
+  --lifestyle-dark: #BCD0C8;
 }
 /* ========= [ * page-home_3 ]  =========*/
 /* --------------- navbar style2 --------------- */

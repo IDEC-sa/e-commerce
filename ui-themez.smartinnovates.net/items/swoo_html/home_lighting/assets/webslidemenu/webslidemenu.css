@@ -122,14 +122,35 @@ video {
     color: #000;
   } 
   ul.wsmenu-list > li > a.navtext:hover{
-   background-color:beige;
-  } 
+   background-color:var(--shadowcolor) ;
+  }
+
+  ul.wsmenu-list > li > .navtext:has(+ .wsshoptabing:hover) {
+    background-color:var(--shadowcolor) ;
+  }
+  ul>li.wsshoplink-active > a {
+    background-color:var(--shadowcolor)  !important;
+  }
+
+  /* .wsmenu>.wsmenu-list>li:hover>.>.wsshopwp>.wstabitem>li.wsshoplink-active>.wstitemright */
+
+
+  /* .wstitemright.clearfix.wstitemrightactive{
+    background-color: var(--shadowcolor);
+  } */
+  .wsmenu>.wsmenu-list>li:hover>.wsshoptabing>.wsshopwp>.wstabitem>li.wsshoplink-active>.wstitemright{
+    background-color: var(--shadowcolor);
+  }
+  .wsmenu>.wsmenu-list>li:hover>.wsshoptabing>.wsshopwp>.wstabitem>li.wsshoplink-active>.wstitemright a.navtext{
+    background-color: var(--shadowcolor);
+  }
+  
   .wsmenu>.wsmenu-list>li>.navtext {
     padding: 7px 5px !important;
   }
   .wsmenu>.wsmenu-list>li>a.navtext > span{
     /* padding: 7px 5px !important; */
-    font-size: 13px;
+    font-size: 16px;
     font-weight: lighter;
   }
 }
