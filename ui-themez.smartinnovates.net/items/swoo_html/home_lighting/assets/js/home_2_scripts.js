@@ -19,8 +19,29 @@ $( function() {
     
 });
 
+//--------------chat--------------------//
 
+// const toggleButton = document.querySelector('.toggle-chat');
+// const chatPopUp = document.querySelector('.chat-pop-up');
+$( function() {
+    $(".chat-btn").click(function(){
+        // console.log(toggleButton)
+        $(this).toggleClass("chat-is-open");
+        $('.chat-box').toggleClass('chat-display-on')
+        $('.chat-box').toggleClass('chat-visible')
+        // $('.chat-box').toggleClass('chat-pos')
+        // $('.chat-pop-up').toggleClass('chat-display-on')
+        // $('.chat-pop-up').toggleClass('chat-visible')
 
+    })
+})
+//     toggleButton.addEventListener('click', _=> {
+//     console.log("asdsa")
+//   toggleButton.classList.toggle('chat-is-open');
+//   chatPopUp.classList.toggle('chat-display-on');
+//   chatPopUp.classList.toggle('chat-visible');
+// })
+// })   
 
 // ------------ swiper sliders -----------
 $(document).ready(function() {
