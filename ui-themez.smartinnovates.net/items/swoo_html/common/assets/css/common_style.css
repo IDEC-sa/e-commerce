@@ -2168,7 +2168,16 @@ input:focus {
           box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.2666666667);
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
-} /* ========= [ * variable ]  =========*/
+}
+button.butn.nohover:hover{
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: none;
+          transform: none;
+}
+/* ========= [ * variable ]  =========*/
 /* --------------- variable --------------- */
 :root {
   --color-blue1:#4b3ec4;

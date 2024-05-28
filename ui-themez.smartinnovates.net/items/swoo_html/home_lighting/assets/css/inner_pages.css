@@ -149,6 +149,12 @@
 }
 
 @media screen and (max-width: 991px) {
+  .col-3.fourth{
+    display: none !important;
+  }
+  div.col-9.fourthrest{
+    width: 100%;
+  }
   .tc-navbar-container-style3 .search-nav-style3 {
     padding: 10px 0;
   }
@@ -157,6 +163,12 @@
     width: -moz-max-content;
     width: max-content;
     max-width: 50%;
+  }
+  .row>.fourth {
+    width: 25%;
+  }
+  .row>.fourthrest{
+    width: 75%;
   }
 }
 /* --------------- navbar style2 --------------- */
